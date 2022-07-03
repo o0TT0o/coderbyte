@@ -1,7 +1,7 @@
 function LongestWord(sen) { 
 
   // https://regex101.com/
-  const re = "[a-zA-Z]+";
+  const re = "[a-zA-Z0-9]+";
   let strsArr = [...sen.matchAll(re)];
   //console.log(strsArr)
   let maxString = '';
